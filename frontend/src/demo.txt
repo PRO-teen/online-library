@@ -1,0 +1,40 @@
+import React from 'react';
+import {FaGithub , FaLinkedin , FaInstagram , FaFacebook} from "react-icons/fa";
+
+const Footer =()=>{
+    return (
+      <>
+        <footer className="text-center text-white footer">
+          <div className="container pt-4">
+            <section className="mb-4">
+              <div className="icons">
+                <a
+                  href="https://www.linkedin.com/in/ayush-ydv/"
+                  target="__blank"
+                >
+                  <FaLinkedin />
+                </a>
+                <a href="https://github.com/PRO-teen">
+                  <FaGithub />
+                </a>
+                <a href="https://www.instagram.com/dev__ayush/">
+                  <FaInstagram />
+                </a>
+                <a href='https://www.facebook.com' >
+                  <FaFacebook />
+                </a>
+              </div>
+            </section>
+            <div className="text-center text-dark p-3 copy">
+              © 2020 Copyright:
+              <a className="text-dark" href="l">
+                Online Library
+              </a>
+            </div>
+          </div>
+        </footer>
+      </>
+    );
+}
+
+export default Footer;
